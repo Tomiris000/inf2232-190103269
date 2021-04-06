@@ -14,7 +14,7 @@ use App\Http\Controllers\BlogController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/cv', function () {
     return view('index');
 }); 
 
